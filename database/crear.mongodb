@@ -1,0 +1,11 @@
+use ('JAMP6')
+db.encuestas.insertOne({
+    "nombreEncuesta" : 'vulnerabilidad',
+    "fecha" : '18/11/2022',
+    "documentoEncuestado" : 21152,
+    "nombreEncuestado": 'Juan',
+    "edad": 20,
+    "genero": 'M',
+    "empleado": 'si'
+
+})
